@@ -1,9 +1,9 @@
-all: report2.html
+all: report.html report2.html
 
 clean:
-	rm -f words.txt histogram.tsv histogram.png report.md report.html hist_vowels.tsv hist_vowels.png report2.md report2.html Rplots.pdf
+	rm -f words.txt histogram.tsv histogram.png report.md report.html hist_vowels.tsv hist_vowels.png report2.md report2.html
 
-report2.html: report2.rmd hist_vowels.tsv hist_vowels.png report.html
+report2.html: report2.rmd hist_vowels.tsv hist_vowels.png
 	Rscript -e 'rmarkdown::render("$<")'
 
 report.html: report.rmd histogram.tsv histogram.png

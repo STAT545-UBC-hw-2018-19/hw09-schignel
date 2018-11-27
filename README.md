@@ -1,17 +1,20 @@
-make-activity
+STAT 547: Homework 09
 =============
 
-The commit history of this repository reflects what a student might do as she works through [this activity](http://stat545-ubc.github.io/automation04_make-activity.html) from [STAT 545](http://stat545-ubc.github.io). This fully developed example shows:
+###Welcome to the repository! 
 
-  * How to run an R script non-interactively
-  * How to use `make`
-    - to record which files are inputs vs. intermediates vs. outputs
-    - to capture how scripts and commands convert inputs to outputs
-    - to re-run parts of an analysis that are out-of-date
-  * The intersection of R and `make`, i.e. how to
-    - run snippets of R code
-    - run an entire R script
-    - render an R Markdown document (or R script)
-  * The interface between RStudio and `make`
-  * How to use `make` from the shell
-  * How Git facilitates the process of building a pipeline
+This material is all about automated analyis and pipelines, using the `make` functionality in R. 
+
+Most of the material here is an extension of **Shaun Jackman** and **Jenny Bryan's** [activity](http://stat545-ubc.github.io/automation04_make-activity.html) from [STAT 545](http://stat545-ubc.github.io). 
+
+**My additions include:** 
+
+- Added an .R script [hist_vowels.R](https://github.com/STAT545-UBC-students/hw09-schignel/blob/master/hist_vowels.R), which uses the `stringr` package to create a frequency table of vowels in the English language. 
+
+- Added an .rmd script [report2.rmd](https://github.com/STAT545-UBC-students/hw09-schignel/blob/master/report2.rmd) that creates an [.html](https://github.com/STAT545-UBC-students/hw09-schignel/blob/master/report2.html) and [.md](https://github.com/STAT545-UBC-students/hw09-schignel/blob/master/report2.md) report from the outputs of the vowels analysis. 
+
+- Added both of the new scripts to the project [makefile](https://github.com/STAT545-UBC-students/hw09-schignel/blob/master/Makefile), and added a the creation of a graph for the vowels analysis. I then updated the relevant dependencies. 
+
+
+While the analysis is simple, i'd say it's still a more useful automation than this:
+![](https://media.giphy.com/media/3rgXByefj5zvCcodOM/giphy.gif)
