@@ -1,0 +1,21 @@
+---
+title: "English Word vowel frequency"
+author: "Stephen Chignell"
+date: "`r format(Sys.time(), '%d %B, %Y')`"
+output:
+  html_document:
+    keep_md: yes
+---
+
+```{r load-histv_dat, include = FALSE}
+histv_dat <- read.delim("hist_vowels.tsv")
+```
+
+On most *nix systems, the file `/usr/share/dict/words` contains a bunch of words.On my machine, it contains `r sum(histv_dat$Freq)` words.
+
+I computed the number of vowels in each word and tabulated how many words have 0 vowels, 1 vowel, 2 vowels, etc.
+
+The most frequent number of vowels is `r with(histv_dat, Vowels[which.max(Freq)])`.
+
+
+![*Fig. 1* A histogram showing the number vowels in English words.](hist_vowels.png)
