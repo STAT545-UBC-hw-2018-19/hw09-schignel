@@ -1,7 +1,7 @@
 ---
 title: "English Word vowel frequency"
 author: "Stephen Chignell"
-date: "26 November, 2018"
+date: "27 November, 2018"
 output:
   html_document:
     keep_md: yes
