@@ -16,4 +16,4 @@ I computed the number of vowels in each word and tabulated how many words have 0
 The most frequent number of vowels is 4.
 
 
-![*Fig. 1* A histogram showing the number vowels in English words.](hist_vowels.png)
+![*Fig. 1* A histogram showing the number of vowels in English words.](hist_vowels.png)
