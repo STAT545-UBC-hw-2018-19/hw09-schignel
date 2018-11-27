@@ -5,7 +5,7 @@ STAT 547: Homework 09
 
 This project is all about **automated analyis and pipelines**, using the `make` functionality in R. 
 
-Most of the material here is an extension of **Shaun Jackman** and **Jenny Bryan's** [activity](http://stat545-ubc.github.io/automation04_make-activity.html) from [STAT 545](http://stat545-ubc.github.io). The instructions for assignment 9 are available [here](http://stat545.com/Classroom/assignments/hw09/hw09.html)
+Most of the material here is an extension of **Shaun Jackman** and **Jenny Bryan's** [activity](http://stat545-ubc.github.io/automation04_make-activity.html) (original code [here](https://github.com/STAT545-UBC/make-activity)) from [STAT 545](http://stat545-ubc.github.io).
 
 **My additions include:** 
 
