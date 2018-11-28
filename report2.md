@@ -9,7 +9,7 @@ output:
 
 
 
-On most *nix systems, the file `/usr/share/dict/words` contains a bunch of words. On my machine, it contains 235886 words.
+On most *nix systems, the file `/usr/share/dict/words` contains a bunch of words. On my machine, it contains 126421 words.
 
 I computed the number of vowels in each word and tabulated how many words have 0 vowels, 1 vowel, 2 vowels, etc.
 

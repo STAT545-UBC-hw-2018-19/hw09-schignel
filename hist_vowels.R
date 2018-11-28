@@ -2,7 +2,7 @@
 words <- readLines("words.txt")
 
 # Count vowel frequency
-Vowels <- stringr::str_count(words, "[AaeEiIoOuU]")
+Vowels <- stringr::str_count(words, "[aAeEiIoOuU]")
 
 # Send to table
 hist_vowels <- table(Vowels)
