@@ -9,7 +9,7 @@ Most of the material here is an extension of **Shaun Jackman** and **Jenny Bryan
 
 **My additions include:** 
 
-- Added an .R script [hist_vowels.R](https://github.com/STAT545-UBC-students/hw09-schignel/blob/master/hist_vowels.R), which uses the `stringr` package to create a frequency table of vowels in the English language. 
+- Added an .R script [hist_vowels.R](https://github.com/STAT545-UBC-students/hw09-schignel/blob/master/hist_vowels.R), which reads in the [words.txt](https://github.com/STAT545-UBC-students/hw09-schignel/blob/master/words.txt) file created by the original code, and uses the `stringr` package to create a frequency table of vowels in the English language. 
 
 - Added an .rmd script [report2.rmd](https://github.com/STAT545-UBC-students/hw09-schignel/blob/master/report2.rmd) that creates an [.html report](https://htmlpreview.github.io/?https://github.com/STAT545-UBC-students/hw09-schignel/blob/master/report2.html) from the outputs of the vowels analysis. 
 
